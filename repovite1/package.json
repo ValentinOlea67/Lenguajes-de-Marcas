@@ -1,0 +1,27 @@
+{
+  "name": "repovite1",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vp dev",
+    "build": "tsc && vp build",
+    "preview": "vp preview",
+    "prepare": "vp config"
+  },
+  "devDependencies": {
+    "typescript": "~7.0.2",
+    "vite": "npm:@voidzero-dev/vite-plus-core@1.5.1",
+    "vite-plus": "1.5.1"
+  },
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@1.5.1"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "version": "12.2.2",
+      "onFail": "download"
+    }
+  }
+}
